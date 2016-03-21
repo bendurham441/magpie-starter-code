@@ -100,7 +100,7 @@ ul.quicklinks li {
 }
 
 #slideshow-body {
-  background-color: red;
+  background-color: black;
   height: 333px;
 }
 
@@ -120,4 +120,37 @@ ul.quicklinks li {
   padding: 10px;
   margin: 0px;
   color: white;
+}
+
+#announce {
+  width: 591px;
+  float: right;
+  margin-left: 20px;
+  margin-top: 35px;
+}
+
+#announce-header {
+  background-color: #0180D1;
+  padding: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: white;
+  text-align: center;
+}
+
+#announce-body {
+  height: 300px;
+  /*background-color: red;*/
+}
+
+#announce-footer {
+  height: 10px;
+  background-color: #0180D1;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+li.announcement {
+  padding: 5px;
+  font-size: 20px;
 }
