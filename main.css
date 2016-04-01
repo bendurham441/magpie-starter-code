@@ -8,6 +8,7 @@
   height: 802px;
   margin: auto;
   margin-top: 20px;
+  display: block;
 }
 
 .clearfix {
@@ -43,6 +44,8 @@ a.nav-item:hover, a.nav-item:active {
 
 #left-sidebar {
   float: left;
+  width: 225px;
+  position: absolute;
 }
 
 #right-sidebar {
@@ -68,6 +71,7 @@ a.nav-item:hover, a.nav-item:active {
   background-color: #0180D1;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+  width: 245px;
 }
 
 a.quicklink:link, a.quicklink:visited {
@@ -82,6 +86,14 @@ a.quicklink:hover, a.quicklink:active {
 
 ul.quicklinks li {
   padding: 5px;
+}
+
+#mask {
+  overflow: hidden;
+}
+
+#slider {
+  overflow: visible;
 }
 
 #slideshow {
@@ -100,8 +112,22 @@ ul.quicklinks li {
 }
 
 #slideshow-body {
+  width: 591px;
   background-color: black;
   height: 333px;
+  position: relative;
+  overflow: hidden;
+}
+
+#slideshow-body figure {
+  position: absolute;
+  opacity: 0;
+  float: left;
+  margin: 0px;
+}
+
+#slideshow-body figure img {
+  width: 100%;
 }
 
 #slideshow-footer {
@@ -118,7 +144,7 @@ ul.quicklinks li {
   background-color: #0180D1;
   height: 20px;
   padding: 10px;
-  margin: 0px;
+  margin: 10px -8px 0px -8px;
   color: white;
 }
 
@@ -153,4 +179,29 @@ ul.quicklinks li {
 li.announcement {
   padding: 5px;
   font-size: 20px;
+}
+
+.teacher-photo {
+  width: 245px;
+}
+
+h3 {
+  text-align: center;
+  text-decoration: underline;;
+}
+
+
+.description {
+  line-height: 200%;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.ed li {
+  font-weight: bold;
+
+}
+
+.ed {
+  text-align: center;
 }
