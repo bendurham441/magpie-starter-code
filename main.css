@@ -1,6 +1,6 @@
 * {
   font-family: sans-serif;
-  background-color: #D4D4D4;
+  background-color: #CCCCCC;
 }
 
 #main {
@@ -9,6 +9,15 @@
   margin: auto;
   margin-top: 20px;
   display: block;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+  margin: 0 0 50px;
 }
 
 .clearfix {
@@ -21,7 +30,7 @@
   width: 870px;
   position: relative;
   margin-bottom: 10px;
-  margin: auto;
+  margin: 10px auto 10px auto;
   border-radius: 5px;
 }
 
@@ -138,14 +147,16 @@ ul.quicklinks li {
 }
 
 #footer {
-  position: relative;
-  bottom: -10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
   text-align: center;
   background-color: #0180D1;
   height: 20px;
   padding: 10px;
-  margin: 10px -8px 0px -8px;
+  margin: 0px -20px 0px -20px;
   color: white;
+  width: 100%;
 }
 
 #announce {
@@ -174,6 +185,7 @@ ul.quicklinks li {
   background-color: #0180D1;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+  margin-bottom: 50px;
 }
 
 li.announcement {
@@ -187,7 +199,7 @@ li.announcement {
 
 h3 {
   text-align: center;
-  text-decoration: underline;;
+  text-decoration: underline;
 }
 
 
@@ -195,6 +207,7 @@ h3 {
   line-height: 200%;
   font-size: 25px;
   padding: 10px;
+  text-indent: 25px;
 }
 
 .ed li {
@@ -205,3 +218,14 @@ h3 {
 .ed {
   text-align: center;
 }
+
+.divider {
+  width: 245px;
+  height: 10px;
+  background-color: #0180D1;
+  margin: 7px 0px 7px 0px;
+}
+
+ .bio {
+   text-indent: 10px;
+ }
